@@ -1,6 +1,8 @@
 <!Doctype html>
 <html>
   <head>
+      <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" />
 
@@ -18,7 +20,16 @@
       <div class="container">
 
         <h1> {{ title }} </h1>
-
+        <h2> {{promo}}</h2>
+          
+          <div class="col-md-6">
+          <div class="thumbnail">
+            <img src="img/the-book-of-trees.jpg">
+            <p class="title">{{product.name}} </p>
+            <p class="price"> {{product.price}}</p>
+            <p class="date"> </p>
+          </div>
+        </div>
       </div>
     </div>
 
